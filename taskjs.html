@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script>
+	document.write("student name:&emsp;&emsp;");
+	document.write("roll number:&emsp;&emsp;");
+	document.write("roll number:<br/>");
+
+
+	var trainees=[
+	{
+		'name':'rajesh23',
+		'roll':'64',
+		'barnch':'ece',
+	},{
+		'name':'rajesh1',
+		'roll':'64',
+		'barnch':'ece1',
+	},
+	{
+		'name':'rajesh2',
+		'roll':'64',
+		'barnch':'ece2',
+	},{
+		'name':'rajesh3',
+		'roll':'64',
+		'barnch':'ece3',
+	},{
+		'name':'rajesh4',
+		'roll':'64',
+		'barnch':'ece4',
+	},
+	{
+		'name':'rajesh32',
+		'roll':'64',
+		'barnch':'ece',
+	},
+	{
+		'name':'rajesh12',
+		'roll':'64',
+		'barnch':'ece',
+	},
+	]
+	for (var i=0;i<trainees.length;i++){
+      for (var key in trainees[i]){
+        document.write(trainees[i][key]+"&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;")
+      }
+      document.write("<br/>")
+    }
+
+</script>
+</body>
+</html>
